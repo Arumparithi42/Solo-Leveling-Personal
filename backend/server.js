@@ -15,7 +15,7 @@ const penaltyRoutes = require("./routes/penaltyRoutes");
 const app = express();
 
 // ---- Global middleware ------------------------------------------------
-app.use(cors({ origin: "https://solo-leveling-personal.vercel.app/" }));
+app.use(cors({ origin: "https://solo-leveling-personal.vercel.app" }));
 app.use(express.json());
 
 // Resolves the single current user for every /api request and attaches it
